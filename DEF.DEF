@@ -1,0 +1,5 @@
+NAME            DEF            WINDOWCOMPAT
+NEWFILES
+STACKSIZE       4096
+HEAPSIZE        1024
+

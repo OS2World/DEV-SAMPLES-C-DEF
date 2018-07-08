@@ -1,0 +1,9 @@
+def.obj:  def.c
+        cl -AL -Zp -c -W3 def.c
+
+def1.obj:  def1.c
+        cl -AL -Zp -c -W3 def1.c
+
+def.exe:  def.obj def1.obj def.def
+        link def+def1,def,NUL,os2+llibce, def.def;
+
